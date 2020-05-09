@@ -10,7 +10,6 @@ repos:
     rev: 'v0.30.0'
     hooks:
     -   id: yapf
-    args: ['--recursive', '--in-place']
 
 -   repo: local
     hooks:
