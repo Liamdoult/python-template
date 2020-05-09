@@ -7,6 +7,7 @@ This is not a beginners project sturcture guide, for that see [pypa/sampleprojec
 ## Testing
 
 All tests are written in with pytest. You can simply run the test suite with tox:
+
     $ tox
 
     GLOB sdist-make: /mnt/c/Users/Liam/Documents/projects/python-template/setup.py
