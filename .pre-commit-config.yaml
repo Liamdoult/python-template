@@ -5,10 +5,21 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+
 -   repo: https://github.com/pre-commit/mirrors-yapf
     rev: 'v0.30.0'
     hooks:
     -   id: yapf
+    args: ['--recursive', '--in-place']
+
+-   repo: local
+    hooks:
+    -   id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        exclude: test/
 
 # Comment out yapf and remove comments bellow for black support.
 # -   repo: https://github.com/psf/black
