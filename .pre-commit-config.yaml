@@ -19,7 +19,7 @@ repos:
         entry: pylint
         language: system
         types: [python]
-        exclude: test/
+        exclude: test/|setup.py
 
 # Comment out yapf and remove comments bellow for black support.
 # -   repo: https://github.com/psf/black
