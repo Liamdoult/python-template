@@ -1,5 +1,7 @@
 import pytest
 
+from template import template_module
+
 
 def test_simple():
-    assert True
+    assert template_module.is_true()
