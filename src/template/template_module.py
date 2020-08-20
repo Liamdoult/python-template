@@ -1,12 +1,9 @@
 """ This is a sample module which should be replaced with your project code. """
 
 
-def is_true():
-    """ This function should always be true.
+def hello_world():
+    """ This function should print hello world.
 
-    This is an example function to show a demo of testing and code cov.
-
-    Returns:
-        Always returns a true boolean.
+    A demo of how to perfrom testing can be found in `test/test_simple`.
     """
-    return True
+    print("hello world")

@@ -22,8 +22,10 @@ Use this checklist below to get started:
     - [ ] Select your python versions in the `.github/workflows/standards.yaml`
 - [ ] Setup local environment:
     - [ ] (ubuntu) Run `sh .scripts/setup.py` to install template related tools.
-
-
+    - [ ] (Optional) Setup development install `python setup.py develop`
+- [ ] (Optional) Test that everything is working
+    - [ ] Run `tox`
+    - [ ] Run `python -m template`
 
 [//]: <> (=====================================================================)
 
