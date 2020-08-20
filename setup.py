@@ -32,7 +32,10 @@ setup(
     install_requires=[],
     extras_require={
         'dev': ['check-manifest'],
-        'test': [],
+        'tests': [
+            "pytest",
+            "pytest-cov",
+        ],
     },
     project_urls={  # Optional
         'Bug Reports': 'https://github.com/LiamDoult/python-template/issues',
